@@ -1,0 +1,8 @@
+name = jeyhun
+LastName = Aliyev
+age = 31
+
+browser = chrome
+#browser = safari
+#browser = FireFox
+url = https://poshmark.com/signup

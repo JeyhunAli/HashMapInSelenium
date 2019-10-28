@@ -9,7 +9,7 @@
 //lets say these all users of the application and need to handle it need store it in our framwork 
 // to handle these to store all these data no need to write code again and again for that we store all these in hashmap
 //in hashmap duplicate key is not allowed 
-//if i store here dublicate customer its not allowed 
+//if i store here dublicate customer its not allowed because its key 
 //but duplicate value is allowed 
 //in hashmap we can pass only key its enough to get value as well 
 
@@ -46,9 +46,9 @@ public class HashMapInSelenium {
 //		driver.findElement(By.xpath("//input[@name='username']"));
 //		driver.findElement(By.xpath("//input[@name='password']"));
 		
-		System.out.println(getCredentialsMap());
-		System.out.println(getCredentialsMap().get("userGunel")); //here im passing key and getting value 
-		System.out.println(getCredentialsMap().get("customer")); //here im passing key and getting value 
+//		System.out.println(getCredentialsMap());
+//		System.out.println(getCredentialsMap().get("userGunel")); //here im passing key and getting value 
+//		System.out.println(getCredentialsMap().get("customer")); //here im passing key and getting value 
 		
 		//String credentials_customer = getCredentialsMap().get("customer");// here im storing method name with get method in string 
 		
@@ -74,7 +74,7 @@ public class HashMapInSelenium {
 	//here creating object of hashmap
 	// i will store the value here in the form of key and value   k,v
 	//theres a question how to store usernmae and password in same string 
-	//for that in hashmap we have to use like that  ("customer", "Jeyhun:Test456"); here customer key, jeyhun username :is separet test456
+	//for that in hashmap we have to use like that  ("customer", "Jeyhun:Test456"); here customer key, jeyhun username :by is separet test456
 	//is password 
 	
 	public static HashMap<String, String> getCredentialsMap() {
